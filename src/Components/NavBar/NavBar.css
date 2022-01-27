@@ -1,0 +1,24 @@
+.NavBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto 10px;
+}
+
+.NavBar img {
+    width: 125px;
+    height: auto;
+}
+
+.NavBar ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.NavBar li {
+    margin: auto 8px;
+    font-size: 20px;
+
+}
