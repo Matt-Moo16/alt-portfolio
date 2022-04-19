@@ -1,24 +1,45 @@
+
+
 .NavBar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: auto 10px;
+    align-items: center;
+    position: relative;
+    
+}
+
+.NameImg {
+    margin-left: 48px;
+    margin-top: 8px;
 }
 
 .NavBar img {
-    width: 125px;
+    width: 60px;
     height: auto;
 }
+
+
 
 .NavBar ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 25px;
 }
 
-.NavBar li {
-    margin: auto 8px;
+.NavBar button {
+    margin-right: 48px;
+    margin-top: 8px;
+    padding: 10px;
     font-size: 20px;
+    color: #fff;
+    border: 3px solid #8AE4F9;
+    border-radius: 16px;
+}
 
+.NavBar button:hover {
+    background-color: #8AE4F9;
+    color:#000;
 }

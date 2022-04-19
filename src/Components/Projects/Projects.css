@@ -1,0 +1,121 @@
+.projectDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #36454F;
+}
+
+.sideBySide {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+   
+}
+
+.projectInfo {
+    margin: 40px 10px;
+    padding: 24px 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform-origin: bottom;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    width: 250px;
+    border: 3px solid #96FCB6;
+    border-radius: 16px;
+    color: #fff;
+    background-color: #36454F;
+}
+
+
+.projectInfo svg {
+    width: 35px;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.projectInfo ul {
+    list-style-type: none;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+    padding: 0px;
+}
+
+.projectInfo li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.projectDiv img {
+    width: 250px;
+    border-radius: 16px;
+}
+
+.projectDiv svg:hover {
+    transform: scale(1.2);
+}
+
+.bounce {
+    animation-name: bounce;
+    animation-timing-function: linear
+}
+
+@keyframes bounce {
+    0%   { transform: translate(0); }
+    50%  { transform: translateY(-10px); }
+    100% { transform: translate(0); }
+}
+
+.projectDiv h3 {
+    font-size: 30px;
+    background-color: #36454F;
+    background-image: linear-gradient(90deg, #8AE4F9, #96FCB6);
+    background-clip: text;
+    color: transparent;
+    
+}
+
+.projectDiv p {
+    background-color: #36454F;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.projectLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    background-color: #36454F;
+}
+
+.projectDiv button {
+    border: 3px solid #8AE4F9;
+    background-color: #36454F;
+    border-radius: 16px;
+    padding: 10px;
+    color: #fff;
+    font-family: 'Istok Web', sans-serif;
+}
+
+.projectDiv button:hover {
+    color: #000;
+    background-color: #8AE4F9;
+}
+
+
+
+

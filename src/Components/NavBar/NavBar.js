@@ -1,5 +1,5 @@
 import React from 'react'
-import mattLogo from '../../Images/mattmlogo-removebg-preview.png'
+import mattLogo from '../../Images/new-logo.svg'
 import './NavBar.css'
 
 export default function NavBar() {
@@ -10,10 +10,7 @@ export default function NavBar() {
                 <img src={mattLogo} alt='Matt M'></img>
             </div>
             <ul>
-                <li>Home</li>
-                <li>About Me</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li><button>CONTACT</button></li>
             </ul>
         </div>
     )

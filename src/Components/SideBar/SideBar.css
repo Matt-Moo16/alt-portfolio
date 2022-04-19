@@ -1,0 +1,38 @@
+
+.sideBar {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.sideBar ul {
+    align-content: center;
+    align-self: center;
+    list-style-type: none;
+    padding: 0;
+    background-color: transparent!important;
+}
+
+.sideBar li {
+    background-color: transparent!important;
+}
+
+.sideBar img {
+    width: 50px;
+    height: 50px;
+    margin: 50px 10px;
+    background-color: transparent!important;
+}
+
+.sideBar img:hover {
+    transform: scale(1.2);
+}
+
+.hiddenName {
+    color: #fff;
+   visibility: hidden;
+}
