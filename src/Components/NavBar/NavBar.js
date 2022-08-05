@@ -10,7 +10,7 @@ export default function NavBar() {
                 <img src={mattLogo} alt='Matt M'></img>
             </div>
             <ul>
-                <li><button>CONTACT</button></li>
+                <li><a href='#contact'><button>contact</button></a></li>
             </ul>
         </div>
     )

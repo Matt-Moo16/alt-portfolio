@@ -10,7 +10,7 @@
 }
 
 .NameImg {
-    margin-left: 48px;
+    margin-left: 15px;
     margin-top: 8px;
 }
 
@@ -30,16 +30,48 @@
 }
 
 .NavBar button {
-    margin-right: 48px;
+    margin-right: 15px;
     margin-top: 8px;
     padding: 10px;
     font-size: 20px;
     color: #fff;
-    border: 3px solid #8AE4F9;
+    border: 3px solid #00E5B0;
     border-radius: 16px;
 }
 
+.NavBar a {
+    background-color: #1B1B1B;
+}
+
 .NavBar button:hover {
-    background-color: #8AE4F9;
-    color:#000;
+    background-color: #00E5B0;
+    color:#1B1B1B;
+}
+
+@media only screen and (min-width: 600px) {
+
+    .NameImg {
+        margin-left: 48px;
+        margin-top: 8px;
+    }
+
+    .NavBar button {
+        margin-right: 48px;
+        margin-top: 8px;
+        padding: 10px;
+        font-size: 20px;
+        color: #fff;
+        border: 3px solid #00E5B0;
+        border-radius: 16px;
+    }
+    
+    .NavBar a {
+        background-color: #1B1B1B;
+    }
+    
+    .NavBar button:hover {
+        background-color: #00E5B0;
+        color:#1B1B1B;
+    }
+
 }

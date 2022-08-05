@@ -1,0 +1,58 @@
+.contactMe {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.contactMe h1 {
+    font-size: 30px;
+    color: #8083FF;
+}
+
+.contactMe a {
+    background-color: #1B1B1B;
+    color:#fff;
+    text-decoration: none;
+    
+}
+
+.centerAll button {
+    font-size: 20px;
+    color: #fff;
+    border: 3px solid #00E5B0;
+    border-radius: 16px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.centerAll {
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.centerAll p {
+    text-align: center;
+    line-height: 250%;
+}
+
+
+.centerAll button:hover {
+    background-color: #00E5B0;
+    color: #1B1B1B;
+}
+
+@media only screen and (min-width: 600px) {
+    .contactMe {
+        margin: 80px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .centerAll {
+        width: 50%;
+    }
+}

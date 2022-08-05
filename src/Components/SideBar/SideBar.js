@@ -1,27 +1,28 @@
 import React from 'react'
-import aboutLogo from '../../Images/about-logo.svg'
-import projectLogo from '../../Images/project-logo.svg'
-import blogLogo from '../../Images/blog-logo.svg'
-import contactLogo from '../../Images/contact-logo.svg'
+import {HiUser, HiCode, HiChatAlt, HiHome} from 'react-icons/hi'
 import './SideBar.css'
 
 export default function SideBar() {
     const sideBarInfo = [
         {
+            iconName: 'Home',
+            icon: <HiHome color='#00E5B0' size={30} title='Home'/>,
+            id: '#home'
+        },
+        {
             iconName: 'Projects',
-            icon: `${projectLogo}`
+            icon: <HiCode color='#00E5B0' size={30} title='Projects'/>,
+            id: '#projects'
         },
         {
             iconName: 'About Me',
-            icon: `${aboutLogo}`
+            icon: <HiUser color='#00E5B0'size={30} title='About Me'/>,
+            id: '#about'
         },
         {
-            iconName: 'Blog',
-            icon: `${blogLogo}`
-        },
-        {
-            iconName: 'About Me',
-            icon: `${contactLogo}`
+            iconName: 'Contact Me',
+            icon: <HiChatAlt color='#00E5B0' size={30} title='Contact Me'/>,
+            id: '#contact'
         },
 
     ]
@@ -32,7 +33,7 @@ export default function SideBar() {
                 <ul>
                     {sideBarInfo.map((info, i) => {
                         return  <li key={i}>
-                                    <img src={info.icon} title={info.iconName} className='tooltip' /> 
+                                    <a href={info.id}>{info.icon}</a> 
                                 </li>
                     })}
                 </ul>
